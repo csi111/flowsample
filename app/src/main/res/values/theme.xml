@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Base" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/primaryVariant</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSecondary">@color/secondary_blue</item>
+        <item name="colorSecondaryVariant">@color/secondary_blue_varient</item>
+    </style>
+
+    <style name="Theme.Base.NoActionBar" parent="Theme.Base">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="Theme.Default" parent="Theme.Base">
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+</resources>
